@@ -1,0 +1,122 @@
+.intro {
+  background-color: lightgreen;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.intro .left {
+  -webkit-box-flex: 0.5;
+      -ms-flex: 0.5;
+          flex: 0.5;
+  overflow: hidden;
+}
+
+.intro .imgContainer {
+  width: 600px;
+  height: 600px;
+  background-color: crimson;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  float: right;
+}
+
+.intro .imgContainer img {
+  height: 100%;
+}
+
+.intro .right {
+  -webkit-box-flex: 0.5;
+      -ms-flex: 0.5;
+          flex: 0.5;
+}
+
+.intro .right .wrapper {
+  width: 100%;
+  height: 100%;
+  padding-left: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.intro .right .wrapper h1 {
+  font-style: 60px;
+}
+
+.intro .right .wrapper h2 {
+  font-style: 35px;
+}
+
+.intro .right .wrapper h3 {
+  font-style: 30px;
+}
+
+.intro .right .wrapper h3 span {
+  font-size: inherit;
+  color: crimson;
+}
+
+.intro .right .wrapper h3 .ityped-cursor {
+  -webkit-animation: blink 0.5s infinite;
+          animation: blink 0.5s infinite;
+}
+
+@-webkit-keyframes blink {
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes blink {
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.intro .right a {
+  position: absolute;
+  bottom: 10px;
+  left: 70%;
+}
+
+.intro .right a .arrow {
+  height: 60px;
+  width: 60px;
+  -webkit-animation: arrowBlink 2s infinite;
+          animation: arrowBlink 2s infinite;
+}
+
+@-webkit-keyframes arrowBlink {
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes arrowBlink {
+  100% {
+    opacity: 0;
+  }
+}
+/*# sourceMappingURL=intro.css.map */

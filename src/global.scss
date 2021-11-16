@@ -1,0 +1,16 @@
+$mainColor: dodgerblue;
+
+$widthMobile: 768px;
+$widthHalf: 1280px;
+
+@mixin half {
+    @media (max-width: #{$widthHalf}){
+        @content
+    }
+};
+
+@mixin mobile {
+    @media (max-width: #{$widthMobile}){
+        @content
+    }
+};
