@@ -29,9 +29,9 @@ const Topbar = ({ menuOpen, setMenuOpen }) => {
                     </div>
 
                     <div className="itemContainer">
-                        <a href="https://linkedin.com/in/joachimdprog" target="_blank" rel="noreferrer">
+                        <a href="https://linkedin.com/in/jdprog" target="_blank" rel="noreferrer">
                             <LinkedIn className="icon" />
-                            <span>linkedin.com/in/joachimdprog</span>
+                            <span>linkedin.com/in/jdprog</span>
                         </a>
                     </div>
 
