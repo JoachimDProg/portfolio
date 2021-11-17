@@ -45,7 +45,10 @@ const Portfolio = () => {
             //     setData(webPortfolio)
             //     setType("")
             //     break;
-
+            default:
+                setData(featuredPortfolio)
+                setType("featured")
+                break;
         }
 
     }, [selected]);
