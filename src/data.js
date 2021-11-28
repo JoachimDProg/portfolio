@@ -3,10 +3,9 @@ export const featuredPortfolio = [
     id: 1,
     imgTitle: "",
     img: "assets/logo.png",
-    desc: "This portfolio website is built using a mix of HTML, CSS (SASS), JavaScript, material U.I. and the REACT.JS framework",
+    desc: "",
 
-    summary: "projects portfolio.",
-    title: "projets portfolio."
+    summary: "This portfolio website is built using a mix of HTML, CSS (SASS), JavaScript, material U.I. and the REACT.JS framework",
   },
 ];
 
@@ -18,7 +17,6 @@ export const desktopPortfolio = [
     desc: "This simple login screen makes the hospital staff access their own pages",
 
     summary: "Software for hospital management. Manage patients, admissions and staff. C#, WPF, MS SQL DB, Visual Studio",
-    title: "desktop app.",
   },
   {
     id: 2,
@@ -48,7 +46,6 @@ export const gamePortfolio = [
     desc: "Start menu with options, original theme song and logo",
 
     summary: "Vertical SHMUP prototype. Start and Game Over menu, scalable enemy waves and movement patterns. C#, Unity, Linear Algebra, Aseprite",
-    title: "game prototype.",
   },
   {
     id: 2,
@@ -78,7 +75,6 @@ export const mobilePortfolio = [
     desc: "This simple login screen is used to log users into their bank account or admin screen if administrator",
 
     summary: "Mobile Banking App. Banking operations and client management. Java, Android Studio",
-    title: "mobile app.",
   },
   {
     id: 2,
@@ -108,7 +104,6 @@ export const webPortfolio = [
     desc: "",
 
     summary: "",
-    title: "web app.",
   },
   {
     id: 2,

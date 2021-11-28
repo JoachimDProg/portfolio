@@ -74,8 +74,12 @@ const Portfolio = () => {
                 </ul>
             </div>
 
+            <div className="summaryContainer">
+                <p className="summary">{summary}</p>
+            </div>
 
-            <div className="container">
+
+            <div className="imgContainer">
                 {data.map((d) => (
                     <div className={"item " + type} onClick={() => setDesc(d.desc)}>
                         <img src={d.img} alt="" />
@@ -84,12 +88,8 @@ const Portfolio = () => {
                 ))}
             </div>
 
-            <div className="desc">
-                <h3>{title}</h3>
-                <p className="summary">{summary}</p>
-                <p className="desc">
-                    {desc}
-                </p>
+            <div className="descContainer">
+                <p className="desc">{desc}</p>
             </div>
 
         </div>
